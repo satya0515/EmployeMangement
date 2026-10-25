@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Employee Management System</h2>
+    <input id="name" placeholder="Employee Name">
+    <button onclick="add()">Add Employee</button>
+    <p id="result"></p>
+
+    <script>
+        function add() {
+            let name = document.getElementById("name").value;
+            document.getElementById("result").innerText =
+                "Employee Added: " + name;
+        }
+    </script>
+</body>
+</html>
